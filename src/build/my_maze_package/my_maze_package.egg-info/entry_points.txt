@@ -1,0 +1,7 @@
+[console_scripts]
+goal_publisher = my_maze_package.goal_publisher:main
+map_publisher = my_maze_package.map_publisher:main
+path_visualizer = my_maze_package.path_visualizer:main
+pathfinding_node = my_maze_package.pathfinding_node:main
+start_publisher = my_maze_package.start_publisher:main
+

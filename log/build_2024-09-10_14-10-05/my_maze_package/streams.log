@@ -1,0 +1,25 @@
+[0.714s] Invoking command in '/home/arthur/ros2_ws/build/my_maze_package': PYTHONPATH=/home/arthur/ros2_ws/build/my_maze_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arthur/ros2_ws/install/my_maze_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/arthur/ros2_ws/build/my_maze_package/build --no-deps symlink_data --force
+[1.010s] running develop
+[1.014s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.015s]   warnings.warn(
+[1.196s] running egg_info
+[1.197s] writing my_maze_package.egg-info/PKG-INFO
+[1.197s] writing dependency_links to my_maze_package.egg-info/dependency_links.txt
+[1.198s] writing entry points to my_maze_package.egg-info/entry_points.txt
+[1.198s] writing requirements to my_maze_package.egg-info/requires.txt
+[1.198s] writing top-level names to my_maze_package.egg-info/top_level.txt
+[1.202s] reading manifest file 'my_maze_package.egg-info/SOURCES.txt'
+[1.204s] writing manifest file 'my_maze_package.egg-info/SOURCES.txt'
+[1.206s] running build_ext
+[1.206s] Creating /home/arthur/ros2_ws/install/my_maze_package/lib/python3.10/site-packages/my-maze-package.egg-link (link to .)
+[1.208s] Installing goal_publisher script to /home/arthur/ros2_ws/install/my_maze_package/lib/my_maze_package
+[1.208s] Installing map_publisher script to /home/arthur/ros2_ws/install/my_maze_package/lib/my_maze_package
+[1.208s] Installing maze_visualizer script to /home/arthur/ros2_ws/install/my_maze_package/lib/my_maze_package
+[1.209s] Installing path_planner script to /home/arthur/ros2_ws/install/my_maze_package/lib/my_maze_package
+[1.209s] Installing start_publisher script to /home/arthur/ros2_ws/install/my_maze_package/lib/my_maze_package
+[1.210s] 
+[1.210s] Installed /home/arthur/ros2_ws/build/my_maze_package
+[1.210s] running symlink_data
+[1.210s] symbolically linking /home/arthur/ros2_ws/build/my_maze_package/resource/my_maze_package -> /home/arthur/ros2_ws/install/my_maze_package/share/ament_index/resource_index/packages
+[1.211s] symbolically linking /home/arthur/ros2_ws/build/my_maze_package/package.xml -> /home/arthur/ros2_ws/install/my_maze_package/share/my_maze_package
+[1.245s] Invoked command in '/home/arthur/ros2_ws/build/my_maze_package' returned '0': PYTHONPATH=/home/arthur/ros2_ws/build/my_maze_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arthur/ros2_ws/install/my_maze_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/arthur/ros2_ws/build/my_maze_package/build --no-deps symlink_data --force
