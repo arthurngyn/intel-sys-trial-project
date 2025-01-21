@@ -39,21 +39,6 @@ This project implements a ROS2-based pathfinding system for grid-based maps. The
 ### Published Topics
 - `path_topic` (Type: `std_msgs/Int32MultiArray`): Computed path as a sequence of coordinates (e.g., `[0, 0, 0, 1, 0, 2, ...]`).
 
-## Running the Project
 
-### Prerequisites
-- Install ROS2 (e.g., Humble, Foxy, or Galactic).
-- Install Python dependencies for ROS2:
-  ```bash
-  sudo apt update
-  sudo apt install python3-colcon-common-extensions python3-rosdep
-  ```
-- Initialize ROS2 workspace:
-  ```bash
-  mkdir -p ~/ros2_ws/src
-  cd ~/ros2_ws
-  colcon build
-  source install/setup.bash
-  ```
 
 
